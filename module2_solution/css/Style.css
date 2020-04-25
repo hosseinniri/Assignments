@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border-color: white;
 }
 h1 {
   margin-bottom: 15px;
@@ -8,13 +9,41 @@ h1 {
 p {
   background-color: #9298a1;
   border: 2px solid black;
-  padding: 15px;
+  padding: 20px;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: black;
 }
+
+section {
+  border: 2px solid black;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  left:70%;
+  top:38px;
+  font-family: Helvetica;
+  
+}
+
+.Chicken {
+  background-color: #c49c91;
+}
+
+.Beef {
+  background-color: #cf431d;
+  color: white;
+}
+
+.Sushi{
+  background-color: #e3d086;
+
+}
+
+
+
 
 
 /* Simple Responsive Framework. */
