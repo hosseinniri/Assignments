@@ -1,0 +1,64 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bbb;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  
+  color: #555;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  line-height: .75;
+  width: 90%;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+/* END HEADER */
+
+/*Main*/
+#home-tiles{
+  /*width: 100%;*/
+  margin: 25px;
+}
+#chicken{
+  margin-top: 50px;
+  background-color: #bbb;
+ 
+}
